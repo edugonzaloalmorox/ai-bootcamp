@@ -1,0 +1,47 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.pdb
+
+# -----------------------
+# Environments / Virtualenvs
+# -----------------------
+.env
+.envrc
+*.env
+*.secrets.env
+.venv/
+venv/
+
+# -----------------------
+# Data and notebooks
+# -----------------------
+data/
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite
+*.log
+.DS_Store
+.ipynb_checkpoints/
+
+# -----------------------
+# IDEs / Editors
+# -----------------------
+.vscode/
+.idea/
+*.swp
+
+# -----------------------
+# Build artifacts
+# -----------------------
+build/
+dist/
+*.egg-info/
