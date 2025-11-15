@@ -1,14 +1,18 @@
-from wikiagent import WikipediaAgent
 
+from wikiagent import build_wikipedia_agent
 
 def main() -> None:
-    agent = WikipediaAgent()
-
-    question = "what is the player with more matches played for England national football team?"
-    answer = agent.answer(question)
-
+    agent = build_wikipedia_agent()
+    question = "where do capybaras live?"
+    result = agent.run_sync(question)
+    output = getattr(result, "output", None)
     print(f"Q: {question}")
-    print("A:", answer)
+    if output is None:
+        output = getattr(result, "data", None)
+
+    print("A:", output)
+
+   
 
 
 if __name__ == "__main__":
