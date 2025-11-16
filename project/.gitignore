@@ -1,0 +1,104 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.Python
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*.DS_Store
+*.bak
+
+# uv (but keep .python-version if you use it)
+.uv/
+.python-version
+
+# Byte-compiled / Caches
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+.mypy_cache/
+.pytest_cache/
+ruff_cache/
+pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor backups
+*~
+
+# -------------------------
+# Environments / Private config
+# -------------------------
+.env.local
+.env.*.local
+secrets.json
+
+# AWS
+.aws/
+*.pem
+
+# -------------------------
+# Output / Data
+# -------------------------
+# Downloaded or generated PDFs
+*.pdf
+
+# Model outputs, artifacts, tmp dirs
+outputs/
+artifacts/
+tmp/
+temp/
+
+# Project data folders
+data/
+datasets/
+cache/
+cache_*/
+
+# -------------------------
+# Node
+# -------------------------
+node_modules/
+dist/
+build/
+
+# -------------------------
+# Ollama
+# -------------------------
+ollama/
+*.gguf
+
+# -------------------------
+# Docker
+# -------------------------
+*.pid
+*.pid.lock
+*.log
+docker-data/
