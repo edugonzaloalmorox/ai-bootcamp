@@ -72,9 +72,6 @@ class ContractMetadataRaw(BaseModel):
         return self.data.get(key)
 
 
-# -------------------- Metadatos canónicos / limpios --------------------
-
-
 class ContractMetadataCanonical(BaseModel):
     """
     Versión limpia y tipada de los metadatos del contrato.

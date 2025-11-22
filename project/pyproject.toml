@@ -9,5 +9,7 @@ dependencies = [
     "dateparser>=1.2.2",
     "pydantic>=2.12.4",
     "pydantic-ai>=1.18.0",
+    "pypdf>=6.2.0",
+    "pypdf2>=3.0.1",
     "requests>=2.32.5",
 ]

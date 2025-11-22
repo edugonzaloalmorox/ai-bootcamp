@@ -23,7 +23,6 @@ def main() -> NoReturn:
       4. Reports the total number of records generated and warns if zero.
 
     The output format is compatible with vector database ingestion
-    (e.g., Qdrant, pgvector, Weaviate, Chroma).
     """
     # Validate contract directory
     if not CONTRACTS_DIR.exists():

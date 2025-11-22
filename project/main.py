@@ -3,13 +3,19 @@ from src.contracts.models import ContractRecord
 from src.scraper import paginate_contract_links
 from src.scraper.detail import process_contract_detail
 import time
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+)
 
 
 SEARCH_URL = (
     "https://contratos-publicos.comunidad.madrid/contratos"
 )
 def main():
-    urls = paginate_contract_links(SEARCH_URL, max_pages=15)
+    urls = paginate_contract_links(SEARCH_URL, max_pages=2)
     selected = urls[:100]
 
     records: list[ContractRecord] = []
