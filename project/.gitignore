@@ -69,6 +69,7 @@ secrets.json
 # -------------------------
 # Downloaded or generated PDFs
 *.pdf
+*.json
 
 # Model outputs, artifacts, tmp dirs
 outputs/
