@@ -11,5 +11,6 @@ dependencies = [
     "pydantic-ai>=1.18.0",
     "pypdf>=6.2.0",
     "pypdf2>=3.0.1",
+    "qdrant-client>=1.16.0",
     "requests>=2.32.5",
 ]
