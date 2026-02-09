@@ -1,0 +1,8 @@
+{
+  "added_docs": 41,
+  "total_docs": 41,
+  "index_dir": "index",
+  "embedding_model": "text-embedding-ada-002",
+  "bm25_enabled": true,
+  "updated_at": "2025-11-01T22:31:20.464084Z"
+}
